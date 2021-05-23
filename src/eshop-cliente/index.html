@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-4">
+           <div class="mb-3">
+             <label for="nombres" class="form-label">Nombres</label>
+             <input class="form-control" id="nameInput" placeholder="Juan Pedro">
+           </div>
+           <div class="mb-3">
+             <label for="apellidos" class="form-label">Apellidos</label>
+             <input id="lastnameInput" class="form-control" placeholder="Hernandez Perez">
+           </div>
+           <div class="mb-3">
+             <label for="dateInput" class="form-label">Fecha de Nacimiento</label>
+             <input id="dateInput" type="date" class="form-control" id="dateInput">
+           </div>
+           <div class="mb-3">
+            <label for="telefono" class="form-label">Telefono</label>
+            <input id="telInput" type="tel" class="form-control" id="nameInput" >
+          </div>
+           <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input id="emailInput" type="email" class="form-control" id="nameInput">
+          </div>
+          <div class="mb-3">
+            <label for="dir" class="form-label">Direccion</label>
+            <input id="dirInput" class="form-control">
+          </div>
+           <div class="col-auto">
+             <button id="btnsave" type="submit" class="btn btn-primary mb-3">Save</button>
+           </div>
+        </div>
+    </div>
+  </div>
+</body>
+<script src="js/ajax.js"></script>
+</html>
